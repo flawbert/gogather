@@ -70,6 +70,7 @@ public class AiService {
             - Data: %s
             - Paradas/Roteiro: %s
             Ajude os usuários com dúvidas sobre o roteiro, dê sugestões de como é o lugar que eles visitarão, e dê ideias de lugares legais parecidos com o que eles querem.
+            MUITO IMPORTANTE: Sempre que você sugerir lugares ou opções para o grupo escolher, você DEVE retornar essas opções no array 'pollOptions' (com text e placeId) para criar uma enquete. Não as liste apenas no campo 'message'.
             Responda de forma concisa e amigável.
             """, 
             group.getName(), 
