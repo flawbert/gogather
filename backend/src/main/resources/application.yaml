@@ -1,10 +1,10 @@
 spring:
   application:
-    name: RoleNet
+    name: GoGather
   config:
     import: classpath:secret.yaml
   datasource:
-    url: jdbc:postgresql://localhost:5432/RoleNet
+    url: jdbc:postgresql://localhost:5432/GoGather
     username: ${db.username}
     password: ${db.password}
     driver-class-name: org.postgresql.Driver
